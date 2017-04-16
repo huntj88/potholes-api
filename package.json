@@ -1,0 +1,29 @@
+{
+  "name": "pothole-api",
+  "version": "0.0.0",
+  "description": "An app to track potholes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "engines": {
+    "node": "7.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "James Hunt",
+  "contributors": [
+  ],
+  "license": "MIT"
+}

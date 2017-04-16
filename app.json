@@ -1,0 +1,6 @@
+{
+  "name": "pothole-api",
+  "description": "An api to track potholes",
+  "repository": "https://github.com/huntj88/potholes",
+  "keywords": ["node", "express", "static"]
+}
