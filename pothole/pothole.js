@@ -93,7 +93,7 @@ router.post('/add',function (req,res) {
     var queryString = "INSERT INTO potholes(userID, location) VALUES (?,ST_GeomFromText(?))";
 
     // gets userID from jwt.
-    // jwt is decoded in jwtCheckAuth and saved in req.decoded.userID
+    // jwt is decoded in jwtCheckAuth.js and saved in req.decoded.userID
 
     var userID = req.decoded.userID;
 
